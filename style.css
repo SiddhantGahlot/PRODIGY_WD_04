@@ -1,0 +1,258 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #ff6700;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #ff6700;
+    transition: 0.3s;
+    bottom: -5px;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background: #ff6700;
+    border: 2px solid #ff6700;
+}
+
+.btn:hover{
+    background: transparent;
+    border-color: #ff6700;
+    color: #ff6700;
+}
+
+/* Welcome Message */
+.content{
+    text-align: center;
+    color: #fff;
+}
+
+.content .title{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #FF00FF 20.69%, #FF6700 50.19%, #CCFF00 79.69%); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-top: 8%;
+}
+
+.content h1{
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.content h1 span{
+    color: #ff6700;
+}
+
+.content p{
+    width: 70%;
+    margin: 25px auto 30px;
+    color: #f0f0f0;
+}
+
+/* About Me */
+.section{
+    padding: 60px 100px;
+    text-align: center;
+    color: white;
+}
+
+.about img{
+    width: 350px;
+    height: 450px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Education */
+.education{
+    margin-bottom: 170px;
+}
+
+.education h3{
+    margin-left: 0%;
+    position: absolute;
+    color: #CCFF00;
+}
+
+.education h4{
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 35px;
+    color: #CCFF00;
+}
+
+.education p{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 60px;
+    text-align: left;
+    font-size:14px;
+}
+
+/* Skills */
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff6700;
+    text-transform: uppercase;
+}
+
+.skills{
+    .skills {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        height: auto; 
+        padding-top: 50px; 
+
+    }
+}
+
+.skill{
+    display: inline-block;
+    background: #1a1a1a; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 1.66%;
+    text-align: center;
+    color: white; 
+}
+
+.skill i{
+    font-size: 20px;
+    color: #ff6700; 
+    margin-bottom: 10px;
+}
+
+.skill h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill p{
+    font-size: 14px;
+}
+
+/* Projects */
+.project-item{
+    display: inline-block;
+    width: 30%;
+    margin: 1.66%;
+}
+
+.project-item p{
+    font-size: 12px;
+}
+
+/* Contact */
+.section-title p{
+    font-size: 12px;
+    color: white;
+}
+
+
+/* Footer */
+.footer{
+    padding: 20px 100px;
+    text-align: center;
+    background: black;
+}
+
+.footer p{
+    color: rgb(80, 169, 242);
+    background-color: black;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6700;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.social-icons a{
+    margin: 10px;
+    color: #ff6700;
+    align-items: center;
+    background-color: transparent;
+}
