@@ -44,11 +44,11 @@
 **To run this portfolio locally:**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/SiddhantGahlot/PRODIGY_WD_04.git
 
 2. Navigate to the project folder:
    ```bash
-   cd portfolio
+   cd PRODIGY_WD_04
 
 3.**Open `index.html` in your browser to view the website.**
 
