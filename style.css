@@ -132,11 +132,15 @@ nav ul li a:hover::after{
     color: white;
 }
 
-.about img{
-    width: 350px;
-    height: 450px;
-    border-radius: 50%;
+.about img {
+    width: fit-content; 
+    height: fit-content; 
+    border-radius: 10%; 
+    object-fit: cover; 
     margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /* Education */
